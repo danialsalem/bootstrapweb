@@ -1,0 +1,99 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #691ef4;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.jumbotron {
+
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    background: transparent;
+    color: white;
+
+}
+
+.custom {
+    background-image: linear-gradient(rgba(40, 5, 122, 0.6), rgba(78, 69, 163, 0.6)), url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+
+/* Gallery */
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 25%;
+        max-width: 100%;
+    }
+}
+
+.carousel-multi-item-2 .card img {
+    border-radius: 2px;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
